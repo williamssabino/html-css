@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" conent="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /*
+         #  = id
+         .  =  class
+         :  = pseudo-classes
+         :: = pseudo elementos
+         >  = children(filho)
+        */
+        a{
+            color: red;
+            text-decoration:none ;
+        }
+        a:hover{
+            text-decoration:underline ;
+
+        }
+        a:active{
+            color: blue;
+        }
+        a::after{
+          content:' [link]' ;   
+          color: rgb(214, 130, 130);
+        }
+        
+        .especial{
+            background-color: aquamarine;
+        }
+        .especial::after{
+            content: '=>';
+        }
+        .especial::before{
+            content: '=>';
+        }
+
+    </style>
+</head>
+<body>
+    <h1>personalizando links</h1>
+    <ul >
+       <li><a href="https://www.youtube.com/watch?v=vMlrcOVr7po&list=PLHz_AreHm4dlUpEXkY1AyVLQGcpSgVF8s&index=22" target="_blank" class="especial">Aula youtube</a></li>
+       <li><a href="https://github.com/gustavoguanabara/html-css/blob/master/aulas-pdf/09%20-%20Listas%20HTML.pdf" target="_blank" class="especial">link site</a></li>
+       
+    </ul>
+
+</body>
+</html>

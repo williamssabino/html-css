@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testes midias dinamicas</title>
+</head>
+<body>
+    <h1>Imagens Dinâmicas</h1>
+
+    <picture>
+        <source media="(max-width:750px )" srcset="imagens/imagem_p.png" type="image/png">
+        <source media="(max-width:1050px )" srcset="imagens/iamgem_m.png" type="image/png">
+        <img src="imagens/imagem_g.png" alt="">
+    </picture>
+    
+    <h1>Reprodução de audio</h1>
+    <audio preload="metadata" controls >
+        <source src="midia/02. Apelido Carinhoso.mp3" type="audio/mpeg">
+    </audio>
+    <audio preload="metadata" controls>
+        <source src="midia/07. Na Hora de Amar (Insensível).mp3" type="">
+    </audio>
+    
+    <p><a href="midia/02. Apelido Carinhoso.mp3" download="02. Apelido Carinhoso.mp3" type="audio/mpeg">clique para baixar o audio</a></p>
+
+    <h1>Reprodução de video</h1>
+    <video width="500" controls>
+        <source src="video/3183647145.mp4" type="video/mp4">
+    </video>
+
+    <h1>Incorporação de video </h1>
+    <iframe width="600" height="400" src="https://www.youtube.com/embed/TCeyIwFGkYo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</body>
+</html>

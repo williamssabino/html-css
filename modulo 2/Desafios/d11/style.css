@@ -1,0 +1,12 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+picture > img{
+    
+    min-width: 500px;
+    max-width: 1350px;
+    
+}

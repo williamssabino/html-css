@@ -1,0 +1,8 @@
+CAPITULO 16- MODELOS DE CAIXA{
+	
+	1-DENTRO DE UMA BOX TEMOS: CONTENT, PADING,BORDER, MARGIN
+	2- TEMOS DOIS MODELOS DE BOX: BLOCK-LEVEL e INLINE-LEVEL
+	3 - UTILIZAMOS HJ AS GROUPING TAGS SEMANTICAS QUE SAO DIVS: HEADER(cabeçalho), MAIN(conteudo principal), ARTICLE(conteudo dp artigo), ASSIDE(conteudo complementar o principal), footer(rodape)
+	    NAV(defina uma area para colocar os links de navegaçao) e SECTION  		
+
+}
