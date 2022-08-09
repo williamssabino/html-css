@@ -22,10 +22,9 @@ main{
 }
 #sec1{
     position: absolute;
-    top: 50%;
+    top: 50%; /*configura a % do topo na tela onde o bloco ira ficar*/
     left: 50%;
-    transform: translate(-50%,-50%);
-
+    transform: translate(-50%,-50%);/*usado para modificar a posição do bloco em relacao a sua posição dentro da tela a colocando centralizada*/
     width: 311px;
     height: 672px;
     background-image: url('imagens/frame-iphone.png');
@@ -50,9 +49,13 @@ iframe#frame1{
 img{
     width: 50px;
     border-radius: 40px;
-    box-sizing: border-box;
+    box-sizing: border-box; /*utilizado para delimitar a areA DE AÇAO da box, fazendo que ao passar o mouse so mexa uma box de vex ao inves de todas*/
     margin-top: 20px;
+    margin-right: 10px;
 }
 img:hover{
     border: 2px solid white;
+    transform: translate(-3px,-3px); /*configua o moviemnto de -3pixels pra cima e pra esquerdda da box ao passar o mouse por cima*/
+    box-shadow: 4px 4px 4px black;
+    transition: 0.5s;
 }
