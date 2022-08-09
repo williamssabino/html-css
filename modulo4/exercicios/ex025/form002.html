@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Teste de formulario</h1>
+    <form action="cadastro.php" method="post" autocomplete="on">
+        <p>
+            <label for="iusu">Usuario</label>
+            <input type="text" name="usu" id="iusu" required maxlength="20" size="15" placeholder="Digite o usuario" autocomplete="username">
+        </p>
+
+        <p>
+            <label for="isen">Senha</label>
+            <input type="password" name="sen" id="isen" required minlength="8" size='15' placeholder="Digite a senha" autocomplete="current-password">
+        </p>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+
+        <!-- Parametros input:
+           required -> faz o campo ser obrigatorio
+           min/maxlength -> limita o tamanho do campo maximo e minimo de caracteres
+           size -> limita o tamanho do campo
+           placeholder -> da dica do que e pra ser digitado no campo 
+           autocomplete -> se na tag <form> ele tiver ligado 'on', sera necessario dentro da tag input a configuração de tipo do autocomplete -->
+
+    </form>
+</body>
+</html>
