@@ -14,18 +14,16 @@
 
     </p>
     <p>
-        <label for="">Ano de Nascimento</label>
+        <label for="Iida">Ano de Nascimento</label>
         <input type="number" name="ida" id="Iida" min="1900" max="2021" oninput="calcular()">
-        <output id="iano">sua idade é: </output>
+        <label for="iiano">sua idade é: </label>
+        <output id="iiano">0</output>
     </p>
 
     <script>
-        let idade = document.getElementById("Iida")
         function calcular(){
-            idad = Number(idade.value)
-            let ano = new Date().getFullYear
-            iano.innerHTML  = Number(ano) - idad.value
-            
+            var ano = new Date().getFullYear()
+            iiano.innerHTML = Number(ano) - Number(Iida.value)     
         }
     </script>
 </body>
