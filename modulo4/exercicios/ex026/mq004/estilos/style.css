@@ -1,0 +1,30 @@
+/*mobile first*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+html{
+  width: 100vw;
+  height: 100vh;
+}
+body{
+    background-image: url("../imagens/back-phone.jpg");
+    background-size: cover;
+    background-position: center center;
+}
+main{
+    background-color: rgba(255, 255, 255, 0.747);
+    width: 90vw;
+    margin: auto;
+    text-align: center;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+#tablet{display: none;}
+#print{display: none;}
+#tv{display: none;}
+#pc{display: none;}
