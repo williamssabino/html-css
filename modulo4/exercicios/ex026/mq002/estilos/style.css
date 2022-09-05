@@ -1,1 +1,29 @@
 /*configurações gerais*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: #2222d8;
+    color: white;
+    background-size: contain ;
+    background-repeat: no-repeat;
+}
+
+/*podemos usar os @media para fazer as configuraçoes de disposituivos */
+
+@media screen and (orientation: portrait) {
+    
+}
+
+@media screen and (orientation: landscape) {
+    
+}
+
+@media all{
+    
+}
