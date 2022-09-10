@@ -24,6 +24,10 @@ main{
     border-radius: 20px;
     padding: 10px;
 }
+img{
+    display: block;
+    margin: auto;
+}
 
 #tablet{display: none;}
 #print{display: none;}
