@@ -5,20 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Media Query</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="estilos/style.css">
-    <link rel="stylesheet" href="estilos/pequenasTelas.css">
-    <link rel="stylesheet" href="estilos/grandesTelas.css">
+    <link rel="stylesheet" href="estilos/outrosdispo.css">
 </head>
-<body>
+<body onresize="mudarResolu()">
     <header>
+        
         <h1>Meu Site</h1>
-        <menu>
-            <ul>
-                <li>Opção 1</li>
-                <li>Opção 2</li>
-                <li>Opção 3</li>
-                <li>Opção 4</li>
-                <li>Opção 5</li>
+        
+        <i id="menub" class="material-icons md-36" onclick="menuBurg()">menu</i>
+        
+        <menu id="opcoes">
+            <ul id="lista" type="none">
+                <li><a href="#">Opção 1</a></li>
+                <li><a href="#">Opção 2</a></li>
+                <li><a href="#">Opção 3</a></li>
+                <li><a href="#">Opção 4</a></li>
+                <li><a href="#">Opção 5</a></li>
             </ul>
         </menu>
     </header>
@@ -33,5 +37,7 @@
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis illo pariatur labore corrupti id, repudiandae officia deserunt ex itaque. Illum, dolor? Neque assumenda culpa magni rerum harum fugit commodi eius. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto nostrum voluptatum alias obcaecati numquam accusantium natus minus blanditiis. Perspiciatis aperiam, reiciendis amet soluta unde numquam nostrum itaque eligendi debitis veniam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis molestiae porro quas possimus aperiam fugit repellendus perspiciatis, illo dolores doloribus impedit, iste fugiat suscipit voluptatibus quos iusto facere amet voluptates. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat dolorum explicabo omnis asperiores, vero nisi eius cum animi facere, similique ratione hic consectetur repudiandae at quibusdam illum eveniet impedit! Labore.</p>
         </article>
     </main>
+    <footer>Site desenvolvido por <Strong>williams Sabino</Strong> para o <strong>Curso em Video</strong></footer>
+    <script src="script.js"></script>
 </body>
 </html>
